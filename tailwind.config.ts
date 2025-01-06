@@ -7,6 +7,11 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    extend: {
+      fontFamily: {
+        brush: ["var(--font-WaterBrushFont)"],
+      },
+    },
   },
   plugins: [],
 } satisfies Config;
