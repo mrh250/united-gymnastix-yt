@@ -26,13 +26,13 @@ const About = () => {
                         Mission
                     </h2>
                     <p className="mt-3 leading-relaxed text-sm sm:text-base text-yellow-300">
-                        Welcome to United Gymnastix, a multi-faceted facility whose goal is for children to achieve their highest potential in the sport of gymnastics, while developing both mentally and physically. Our diversified programs have been structured to accommodate students of all levels from the very beginner up through the very advanced.The class sizes are small, allowing for more individualized attention as well as promoting a safe and healthy learning environment. United's large gymnasium is fully equipped to stimulate and challenge every level student.
+                        Welcome to United Gymnastix, a multi-faceted facility whose goal is for children to achieve their highest potential in the sport of gymnastics, while developing both mentally and physically. Our diversified programs have been structured to accommodate students of all levels from the very beginner up through the very advanced.The class sizes are small, allowing for more individualized attention as well as promoting a safe and healthy learning environment. United&apos;s large gymnasium is fully equipped to stimulate and challenge every level student.
                     </p>
                     <h2 className="text-xl italic underline text-yellow-300 mt-3 leading-[2.5rem] sm:leading-[3rem]">
                         Vision
                     </h2>
                     <p className="mt-3 leading-relaxed text-sm sm:text-base text-yellow-300">
-                        From our two-year-old "Super Tots" to our highly competitive team athletes, United offers a myriad of opportunities for all to enjoy physical activity, regardless of ability. Studies show that children who exercise - even if it's so much fun that they don't know they are exercising! - are more likely to develop a life-long interest in fitness and health. The challenges of gymnastics develop coordination needed for other sports, too; as well as sharpen mental focus. Many of our students say their gymnastics experiences taught them to rationalize and conquer fears, plus helped them learn to set realistic goals...and then to work hard toward accomplishing them!
+                        From our two-year-old &quot;Super Tots&quot; to our highly competitive team athletes, United offers a myriad of opportunities for all to enjoy physical activity, regardless of ability. Studies show that children who exercise - even if it&apos;s so much fun that they don&apos;t know they are exercising! - are more likely to develop a life-long interest in fitness and health. The challenges of gymnastics develop coordination needed for other sports, too; as well as sharpen mental focus. Many of our students say their gymnastics experiences taught them to rationalize and conquer fears, plus helped them learn to set realistic goals...and then to work hard toward accomplishing them!
                     </p>
                     <h2 className="text-xl italic underline text-yellow-300 mt-3 leading-[2.5rem] sm:leading-[3rem]">
                         Values
@@ -44,7 +44,7 @@ const About = () => {
                     <div className="mt-8 border-l-2 border-gray-400">
                         <div className="ml-6">
                             <p className="text-gray-400 font-medium">
-                                &quot; United is the best gym we have been with in my children's gymnastic career. The coaches are not only amazingly qualified and dedicated, they are good with parents too! The families are nice, the gymnasts are supportive of each other at all levels and the class atmospheres are gentle and nurturing.  I only wish we had started our competitive career at this gym instead of starting at others where not only I but my children felt less supported and coached, and were ultimately less successful, personally and competitively. Definitely try this place!&quot;
+                                &quot; United is the best gym we have been with in my children&apos;s gymnastic career. The coaches are not only amazingly qualified and dedicated, they are good with parents too! The families are nice, the gymnasts are supportive of each other at all levels and the class atmospheres are gentle and nurturing.  I only wish we had started our competitive career at this gym instead of starting at others where not only I but my children felt less supported and coached, and were ultimately less successful, personally and competitively. Definitely try this place!&quot;
                             </p>
                             <div className="flex items-center space-x-6 mt-6">
                                 <Link href="https://g.co/kgs/S2vAJWq" passHref legacyBehavior>
