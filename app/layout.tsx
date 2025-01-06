@@ -11,6 +11,7 @@ const font = Rethink_Sans({
   subsets: ["latin"],
 })
 
+/* 
 const RubikVinylFont = Rubik_Vinyl({
   weight: '400',
   subsets: ["latin"],
@@ -22,7 +23,7 @@ const WaterBrushFont = Water_Brush({
   subsets: ["latin"],
 })
 
-/* 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
