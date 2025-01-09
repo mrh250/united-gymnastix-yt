@@ -2,9 +2,10 @@ import React from 'react'
 import Link from 'next/link'
 import { TbBrandFacebook, TbBrandInstagram, TbBrandLinkedin } from 'react-icons/tb'
 
+{/* 
 interface SocialMediaClusterProps {
     color?: string; // optional color prop
-}
+*/}
 
 const SocialMediaCluster = ({ color = 'text-yellow-400' }) => {
     return (
