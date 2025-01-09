@@ -1,4 +1,3 @@
-import BoxText from '@/components/Helper/BoxText'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -18,7 +17,6 @@ const About = () => {
                 </div>
                 {/* Text Content */}
                 <div>
-                    <BoxText>About Us</BoxText>
                     <h1 className="text-2xl sm:text-3xl font-bold text-yellow-300 mt-3 leading-[2.5rem] sm:leading-[3rem]">
                         Mission, Vision, & Values
                     </h1>
@@ -41,36 +39,6 @@ const About = () => {
                         Our Safety Certified Staff are caring professionals whose number one priority is to see that your child is getting the most out of their gymnastics experience. You will often see a reluctant child coaxed out onto the floor for a first class and minutes later having a great time. At United, we know how to make gymnastics a fun activity, while increasing coordination, body awareness, strength, flexibility and self-confidence.
                     </p>
                     <button className="mt-5 text-white font-bold pb-1 border-b-2 border-white">Learn More! &#8594;</button>
-                    <div className="mt-8 border-l-2 border-gray-400">
-                        <div className="ml-6">
-                            <p className="text-gray-400 font-medium">
-                                &quot; United is the best gym we have been with in my children&apos;s gymnastic career. The coaches are not only amazingly qualified and dedicated, they are good with parents too! The families are nice, the gymnasts are supportive of each other at all levels and the class atmospheres are gentle and nurturing.  I only wish we had started our competitive career at this gym instead of starting at others where not only I but my children felt less supported and coached, and were ultimately less successful, personally and competitively. Definitely try this place!&quot;
-                            </p>
-                            <div className="flex items-center space-x-6 mt-6">
-                                <Link href="https://g.co/kgs/S2vAJWq" passHref legacyBehavior>
-                                    <a target="_blank" rel="noreferrer">
-                                        <Image
-                                            src="/images/u1.png"
-                                            alt="user"
-                                            width={40}
-                                            height={40}
-                                            className="rounded-full"
-                                        />
-                                    </a>
-                                </Link>
-                                <div>
-                                    <Link href="https://g.co/kgs/S2vAJWq" passHref legacyBehavior className="text-gray-400 font-medium">
-                                        <a target="_blank" rel="noreferrer"> Kim Drnec
-                                        </a>
-                                    </Link> <br />
-                                    <Link href="https://g.co/kgs/S2vAJWq" passHref legacyBehavior className="text-gray-400 text-sm">
-                                        <a target="_blank" rel="noreferrer"> Google Review
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
