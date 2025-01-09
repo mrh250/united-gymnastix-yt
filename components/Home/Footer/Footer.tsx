@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa6';
 import Iframe from 'react-iframe';
 import HoursOfOperation from '@/components/Helper/HoursOfOperation';
 import SectionDivider from '@/components/Helper/SectionDivider';
