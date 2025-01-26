@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
                     {/* Contact Information Section */}
                     <div className='text-right'>
                         <h3 className="text-xl font-semibold  text-white">Contact Us</h3>
-                        <div className="mt-4">
+                        <div className="mt-6">
                             <h4 className="text-sm text-gray-200">Our Mobile Number</h4>
                             <h4 className="text-base font-bold text-yellow-400">555-555-5555</h4>
                         </div>
@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
                 <p className="text-center md:text-left">
                     Copyright &copy; 2025 United Gymnastix. All rights reserved.
                 </p>
-                <div className="flex items-center space-x-4 mt-4 md:mt-0">
+                <div className="flex items-center space-x-4 mt-6 md:mt-0">
                     <span>Socials:</span>
                     <SocialMediaCluster color="text-white" />
                 </div>

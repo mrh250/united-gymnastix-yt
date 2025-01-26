@@ -7,7 +7,7 @@ import { FaStar } from 'react-icons/fa6'
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[110vh] sm:h-screen bg-black flex justify-center flex-col py-10">
+    (<div className="relative w-full h-[110vh] sm:h-screen bg-black flex justify-center flex-col py-10">
       <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 xl:grid-cols-2 gap-10">
         {/* Text Content */}
         <div className='flex flex-col justify-center items-start'>
@@ -28,7 +28,7 @@ const Hero = () => {
           {/* Ratings */}
           <div className="flex sm:flex-row flex-col sm:items-center sm:space-x-10 mt-6">
             <div className="flex mt-6 sm:mt-0 items-center space-x-4">
-              <Link href="https://g.co/kgs/JDJJ61L">
+              <Link href="https://g.co/kgs/JDJJ61L" legacyBehavior>
                 <Image
                   src="/images/google.png"
                   alt="Google"
@@ -55,7 +55,7 @@ const Hero = () => {
               </p>
             </div>
             <div className="flex mt-6 sm:mt-0 items-center space-x-4">
-              <Link href="https://www.linkedin.com/company/united-gymnastix">
+              <Link href="https://www.linkedin.com/company/united-gymnastix" legacyBehavior>
                 <Image
                   src="/images/linkedin.png"
                   alt="LinkedIn"
@@ -90,10 +90,9 @@ const Hero = () => {
             fill={true}
           />
         </div>
-        <div><SectionDivider /></div>
       </div>
-    </div>
-  )
+    </div>)
+  );
 }
 
 export default Hero
